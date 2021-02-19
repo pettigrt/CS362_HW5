@@ -1,2 +1,4 @@
-py: |
-  print("Hello, World!")
+title: Shell tests
+tests:
+- sh: echo Hello, World!
+- sh: cat test.txt
